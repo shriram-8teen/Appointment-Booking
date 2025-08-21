@@ -35,7 +35,7 @@ cd Appointment-Booking
 cd Appointment-Booking/backend
 ```
 ```bash
-npm install
+npm run dev
 ```
 ```bash
 npm start
