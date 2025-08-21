@@ -40,8 +40,18 @@ npm install
 ```bash
 npm start
 ```
-Frontend (/frontend/.env)
-VITE_API_URL=http://localhost:5000
+
+## Frontend
+```bash
+cd Appointment-Booking/backend
+```
+```bash
+npm install
+```
+```bash
+npm start
+```
+
 
 
 
