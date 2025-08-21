@@ -40,6 +40,7 @@ npm run dev
 ```bash
 npm start
 ```
+Runs on: http://localhost:5000
 
 ## Frontend
 ```bash
@@ -51,6 +52,7 @@ npm install
 ```bash
 npm start
 ```
+Runs on: http://localhost:5173
 ## 🔑 Environment Variables
 
 Environment variables are required for both backend and frontend.
