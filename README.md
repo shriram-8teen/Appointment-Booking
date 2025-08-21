@@ -22,3 +22,14 @@ Clone the repository:
 ```bash
 git clone https://github.com/shriram-8teen/Appointment-Booking
 cd Appointment-Booking
+---
+
+## Backend
+
+
+
+```bash
+cd Appointment-Booking/backend
+npm install
+npm start
+
