@@ -21,8 +21,8 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/shriram-8teen/Appointment-Booking
+```
 cd Appointment-Booking
----
 ```
 
 ## Backend
@@ -31,7 +31,9 @@ cd Appointment-Booking
 
 ```bash
 cd Appointment-Booking/backend
+```
 npm install
+```
 npm start
 ```
 Frontend (/frontend/.env)
@@ -40,7 +42,7 @@ VITE_API_URL=http://localhost:5000
 
 
 
-#  Seeded Users
+##  Seeded Users
 
 Patient → patient@example.com / Passw0rd!
 
@@ -49,7 +51,7 @@ Admin → admin@example.com / Passw0rd!
 Admin is seeded via utils/seedAdmin.js.
 Slots are generated via utils/seedSlots.js.
 
-# 📡 API Endpoints
+## 📡 API Endpoints
 Auth
 
 POST /api/register → Register new patient
@@ -68,31 +70,31 @@ GET /api/my-bookings → Patient’s bookings
 
 GET /api/all-bookings → Admin view of all bookings
 
-🔍 Quick Verification (cURL)
-# Register new patient
+#🔍 Quick Verification (cURL)
+## Register new patient
 curl -X POST http://localhost:5000/api/register \
   -H "Content-Type: application/json" \
   -d '{"name":"Test","email":"test@example.com","password":"Passw0rd!"}'
 
-# Login as patient
+## Login as patient
 curl -X POST http://localhost:5000/api/login \
   -H "Content-Type: application/json" \
   -d '{"email":"patient@example.com","password":"Passw0rd!"}'
 
-# Get available slots
+## Get available slots
 curl http://localhost:5000/api/slots
 
-# Book a slot (replace <TOKEN> and <SLOT_ID>)
+## Book a slot (replace <TOKEN> and <SLOT_ID>)
 curl -X POST http://localhost:5000/api/book \
   -H "Authorization: Bearer <TOKEN>" \
   -H "Content-Type: application/json" \
   -d '{"slotId":"<SLOT_ID>"}'
 
-# Get patient’s bookings
+##  Get patient’s bookings
 curl http://localhost:5000/api/my-bookings \
   -H "Authorization: Bearer <TOKEN>"
 
-# 🏗️ Architecture Notes
+## 🏗️ Architecture Notes
 
 Folder Structure
 
