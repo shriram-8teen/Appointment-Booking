@@ -43,7 +43,7 @@ npm start
 
 ## Frontend
 ```bash
-cd Appointment-Booking/backend
+cd Appointment-Booking/frontend
 ```
 ```bash
 npm install
