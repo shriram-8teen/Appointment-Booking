@@ -51,6 +51,29 @@ npm install
 ```bash
 npm start
 ```
+## 🔑 Environment Variables
+
+Environment variables are required for both backend and frontend.
+Since .env files are not committed, use the provided .env.example as a reference.
+
+Backend (/backend/.env)
+PORT=5000
+MONGO_URI=your_mongodb_connection_string_here
+JWT_SECRET=your_secret_key_here
+
+
+PORT: Port for the backend server
+
+MONGO_URI: MongoDB Atlas connection string
+
+JWT_SECRET: Secret key for signing JWT tokens
+
+Frontend (/frontend/.env)
+VITE_API_URL=http://localhost:5000
+
+
+VITE_API_URL: URL of the backend API.
+(In production, replace with deployed backend URL)
 
 
 
