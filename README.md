@@ -121,7 +121,7 @@ GET /api/my-bookings → Patient’s bookings
 
 GET /api/all-bookings → Admin view of all bookings
 
-#🔍 Quick Verification (cURL)
+🔍 Quick Verification (cURL)
 ## Register new patient
 curl -X POST http://localhost:5000/api/register \
   -H "Content-Type: application/json" \
