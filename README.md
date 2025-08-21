@@ -22,7 +22,9 @@ Clone the repository:
 ```bash
 git clone https://github.com/shriram-8teen/Appointment-Booking
 ```
+```bash
 cd Appointment-Booking
+
 ```
 
 ## Backend
@@ -32,8 +34,10 @@ cd Appointment-Booking
 ```bash
 cd Appointment-Booking/backend
 ```
+```bash
 npm install
 ```
+```bash
 npm start
 ```
 Frontend (/frontend/.env)
@@ -121,4 +125,7 @@ Unique slot booking check prevents double-booking.
 Error Handling
 
 Standard JSON error shape:
+```bash
+{ "error": { "code": "SLOT_TAKEN", "message": "This slot is already booked." } }
 
+```
