@@ -174,3 +174,10 @@ Standard JSON error shape:
 { "error": { "code": "SLOT_TAKEN", "message": "This slot is already booked." } }
 
 ```
+## 📬 Contact
+
+For any questions or feedback, feel free to reach out:
+
+**Shriram Hegde**  
+📧 shriramh46@gmail.com  
+🔗 [GitHub](https://github.com/shriram-8teen)
