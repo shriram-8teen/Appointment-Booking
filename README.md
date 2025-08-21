@@ -12,10 +12,6 @@ Implements user authentication, role-based access (patient/admin), slot booking 
 - **Frontend**: React + Vite  
   - Trade-off: Vite chosen for faster development and build times compared to CRA.
 - **Auth**: JWT-based authentication with role-based access control (RBAC).  
-- **Deployment** (if done):  
-  - Frontend → Vercel / Netlify  
-  - Backend → Render / Railway  
-  - Database → MongoDB Atlas  
 
 ---
 
